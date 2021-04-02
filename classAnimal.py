@@ -3,6 +3,7 @@ class Animal:
     def __init__(self, poids, taille) :
         self.__taille = taille
         self.__poids = poids
+        
 
     def get_taille(self) :
         return self.__taille
@@ -10,6 +11,8 @@ class Animal:
     def get_poids(self) : 
         return self.__poids
     
+    def se deplacer(self) :
+        pass
 
     def set_taille(self, taille) :
         if taille > 0 :

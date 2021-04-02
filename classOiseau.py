@@ -5,5 +5,5 @@ class Oiseau(Animal) :
         super().__init__(poids, taille)
         self.altitude_max = altitude_max
 
-    def se_deplacer(*args):
+    def se_deplacer(self):
         print("Je vole")
