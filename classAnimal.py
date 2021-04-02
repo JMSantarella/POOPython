@@ -11,20 +11,20 @@ class Animal:
     def get_poids(self) : 
         return self.__poids
     
-    def se deplacer(self) :
+    def se_deplacer(self) :
         pass
 
     def set_taille(self, taille) :
         if taille > 0 :
             self.__taille = taille
         else :    
-            print("FalseValue")
+            raise (value error)
 
     def set_poids(self, taille) : 
-        if poids > 0 :
-            self.__poids = poids
+        if taille > 0 :
+            self.__taille = taille
         else :
-            print("FalseValue")
+            raise (value error)
 
     def __str__(self):
        return f"instance de la classe Animal ayant pour attributs {self.__poids} , {self.__taille} "
