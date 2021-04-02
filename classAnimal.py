@@ -18,13 +18,13 @@ class Animal:
         if taille > 0 :
             self.__taille = taille
         else :    
-            raise (value error)
+            raise ValueError()
 
     def set_poids(self, taille) : 
         if taille > 0 :
             self.__taille = taille
         else :
-            raise (value error)
+            raise ValueError()
 
     def __str__(self):
        return f"instance de la classe Animal ayant pour attributs {self.__poids} , {self.__taille} "
